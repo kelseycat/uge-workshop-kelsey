@@ -1,0 +1,163 @@
+cd (change directory)
+man less (manual)
+history | less
+history
+history 20
+history
+pwd
+cd ../
+cd Desktop/web/website_kb/
+../ (going up!)
+chsh -s /usr/local/bin/bash
+exec bash
+Desktop/
+ls /Applications/ -t
+subl index.html
+cd ~
+ls
+cd Desktop/Arduino/
+cd Users/kelsey
+cd ~/Desktop/
+--ls = list files --
+ls -l
+cd /Users/kelsey/
+ls -hl
+man ls
+ls -lrS
+ls -rS
+ls -S
+ls -R
+ls -man
+ls man
+cd /
+ls -lr
+ls -rt
+ls -r
+ls -lt
+ls -t
+learning to order lists by time
+cd ~/
+cd ~/Desktop/Arduino
+echo $PATH
+bin
+subl
+echo $EDITOR
+echo $PATH
+git --version
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email 'brubaker.kelsey@gmail.com'
+git config --global user.name 'Kelsey Brubaker'
+subl /etc/paths
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sublln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/sub
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl usr/local/bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln
+/bin/
+help
+eval "PATH"
+PATH
+-bash
+eval PATH
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/Cellar/subl usr/local/Cellar/subl
+$PATH
+ln -s /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl ~/bin/subl
+ln ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+ln -s /Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.0.2.app/Contents/SharedSupport/bin/subl usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ .app/Contents/SharedSupport/bin/subl usr/local/bin/subl
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl usr/local/bin/subl
+brew info fish
+chsh -s /usr/local/bin/fish
+fish_update_completions
+curl -fsSL http://git.io/beJs | ruby
+curl -fsSl http://git.io/beJs | ruby
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+fish_config
+vim ~/.config/fish/config.fish
+mkdir -p ~/.config/fish
+echo '/usr/local/bin/fish' | sudo tee -a /ect/shells
+--brew install fish--
+brew upgrade <fish>
+brew update fish
+brew doctor
+brew update
+git -version
+git -v
+baud_rate
+ls -G
+uname
+--email checker arduino project--
+ruby Arduino.rb
+cd ~ Desktop/Arduino
+cd ~Desktop/Arduino
+Ardunio.rb
+ruby dino_test.rb
+gem install dino
+ruby arduino.rb
+irb
+~/Desktop/Arduino
+cd /Desktop/Arduino
+cd Users/kelsey/Desktop/Arduino
+rad gmail_notification
+rails --version
+ruby -v
+require 'gmail'
+require 'serialport'
+2.2.1 :024 >
+Errno::ETIMEDOUT: Operation timed out
+2.2.1 :023 >     end
+2.2.1 :022?>
+2.2.1 :021 >     sleep wait_time
+2.2.1 :020?>
+2.2.1 :019 >     prev_unread = unread
+2.2.1 :018?>
+2.2.1 :017?>     end
+2.2.1 :016?>       port.write "b"
+2.2.1 :015?>     if unread > prev_unread
+2.2.1 :014?>     puts "Checked Unread."
+2.2.1 :013 >     unread = gmail.inbox.count(:unread)
+2.2.1 :012 > loop do
+ => 4
+2.2.1 :011 > wait_time = 4
+from (irb):10
+Errno::ENOENT: No such file or directory - /dev/cu.usbmodem1411 (Arduino Uno)
+2.2.1 :010 > port = SerialPort.new(port_file, baud_rate, data_bits, stop_bits)
+ => 0
+2.2.1 :009 > parity = SerialPort::NONE
+ => 1
+2.2.1 :008 > stop_bits = 1
+ => 8
+2.2.1 :007 > data_bits = 8
+ => 9600
+2.2.1 :006 > baud_rate = 9600
+ => "/dev/cu.usbmodem1411 (Arduino Uno)"
+2.2.1 :005 > port_file = '/dev/cu.usbmodem1411 (Arduino Uno)'
+ => 67
+2.2.1 :004 > prev_unread = gmail.inbox.count(:unread)
+ => #<Gmail::Client0x7fa451c82d08 (brubaker.kelsey@gmail.com) connected>
+2.2.1 :003 > gmail = Gmail.connect("brubaker.kelsey@gmail.com","8Redoctopus")
+ => true
+2.2.1 :002 > require 'gmail'
+2.2.1 :001 > require 'serialport'
+run irb
+ruby irb
+gem list
+gem install serialport
+gem install gmail
+gem install mechanize
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+xcode-select --install
+rails -v
+rILA -V
+rvm -v
+type rvm | head -1
+curl -L https://get.rvm.io | bash -s stable --auto-dotfiles --autolibs=enable --rails
+echo "gem: --no-document" >> ~/.gemrc
+brew install git
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
