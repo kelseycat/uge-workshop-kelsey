@@ -8,3 +8,13 @@ git checkout branch_name to look at the branch and see where you are. location w
 
 
 git status after everything you do
+
+
+connect terminal to github through use of ssh keys
+
+
+git push -u origin master allows changes in local files to be in correct branches remotely
+
+
+git remote -v will show how things are connected
+
