@@ -1,5 +1,11 @@
+hidden files---.git is one
+
 cd (change directory)
+
+
 man less (manual)
+
+
 history | less
 history
 history 20
@@ -7,7 +13,11 @@ history
 pwd
 cd ../
 cd Desktop/web/website_kb/
+
+
 ../ (going up!)
+
+
 chsh -s /usr/local/bin/bash
 exec bash
 Desktop/
