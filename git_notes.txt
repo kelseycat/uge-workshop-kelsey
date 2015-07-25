@@ -1,0 +1,10 @@
+HEAD term is wherever you are looking right now
+
+
+git branch branch_name creates a new branch off master
+
+
+git checkout branch_name to look at the branch and see where you are. location will be shown with *
+
+
+git status after everything you do
