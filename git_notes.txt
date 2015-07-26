@@ -18,3 +18,11 @@ git push -u origin master allows changes in local files to be in correct branche
 
 git remote -v will show how things are connected
 
+
+cd out to home
+create friend repo directory
+Add to git notes after fork and clone
+(in git hub - click fork button, copy clone ssh code
+in terminal - git clone paste ssh code)
+open friend repo in sublime
+make these changes.
